@@ -41,7 +41,7 @@ const Home = () => {
 
     setLatestMovies([
       { id: 4, title: 'Messi x Ronaldo', image: 'ronaldo.png', rating: 4.6 },
-      { id: 5, title: 'Thế giới của mèo', image: 'guitarMeow.png', rating: 4.5 },
+      { id: 5, title: 'Caribe - Vùng đất cấm', image: 'caribe.png', rating: 4.5 },
       { id: 6, title: 'Cướp biển caribe', image: 'caribe.png', rating: 4.4 },
       { id: 7, title: 'The change of the would', image: 'khampha.png', rating: 4.4 },
     ]);
