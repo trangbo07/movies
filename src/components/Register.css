@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+/* Form đăng ký */
+.register-box {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.register-box:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.register-box h2 {
+  text-align: center;
+  color: #1c2b36;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Input đẹp */
+.register-box input {
+  width: auto;
+  padding: 12px 16px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #cdd5dc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.25s ease;
+  background: #f8fafd;
+}
+
+.register-box input:focus {
+  border-color: #0072ff;
+  box-shadow: 0 0 0 3px rgba(0, 114, 255, 0.1);
+  outline: none;
+}
+
+/* Nút đăng ký */
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-box button:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: scale(1.03);
+}
+
+/* Link chuyển qua login */
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.login-link a {
+  color: #0072ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

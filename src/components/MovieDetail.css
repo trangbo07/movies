@@ -1,0 +1,27 @@
+.movie-detail {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(36,59,85,0.13);
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.movie-detail-title {
+  font-size: 2rem;
+  color: #243b55;
+  margin-bottom: 0.5rem;
+}
+
+.movie-detail-year {
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.movie-detail-desc {
+  font-size: 1.1rem;
+  color: #222;
+  line-height: 1.6;
+} 
